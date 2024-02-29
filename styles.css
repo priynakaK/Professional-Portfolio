@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    /* border: 1px solid black; */
+    background-color: grey;
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+}
+#header #studImg{
+    width:20%;
+    height: inherit;
+}
+#header #studDetail{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+}
+#header #studDetail #studName{
+
+}
+#header #studDetail #menu{
+
+}
+#header #studDetail #menu #menulist{
+    display:flex;
+    flex-direction: row;
+}
+#header #studDetail #menu #menulist li{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+#header #studDetail #menu #menulist li a{
+    text-decoration: none;
+}
+#header #studImg img{
+    height: inherit;
+    border-radius: 50%;
+}
+
+#main{
+    /* border: 1px solid black; */
+    background-color: white;
+    height: 541px;
+    overflow-x: scroll;
+}
+#main div{
+    height: 500px;
+    border: 1px solid grey;
+    
+    /* margin: 5px; */
+    padding: 5px;
+    background-color: cadetblue;
+}
+#footer{
+    /* border: 1px solid black; */
+    background-color: grey;
+    height: 23px;
+}
